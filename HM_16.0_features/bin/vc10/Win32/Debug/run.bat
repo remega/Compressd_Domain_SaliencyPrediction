@@ -1,0 +1,1 @@
+start TAppDecoder.exe -b str.bin

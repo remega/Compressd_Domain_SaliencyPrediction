@@ -1,0 +1,57 @@
+﻿生成启动时间为 2016/12/21 12:33:16。
+     1>项目“D:\compressdomain\release\HM16.0_fixqp\build\vc10\TLibEncoder_vc10.vcxproj”在节点 4 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibEncoder\TLibEncoder.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibEncoder\TLibEncoder.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\compressdomain\release\HM16.0_fixqp\build\\..\source\Lib\ /ID:\compressdomain\release\HM16.0_fixqp\build\\..\compat\msvc /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibEncoder\\" /Fd"D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibEncoder\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\source\Lib\TLibEncoder\NALwrite.cpp ..\..\source\Lib\TLibEncoder\SEIwrite.cpp ..\..\source\Lib\TLibEncoder\SyntaxElementWriter.cpp ..\..\source\Lib\TLibEncoder\TEncAnalyze.cpp ..\..\source\Lib\TLibEncoder\TEncBinCoderCABAC.cpp ..\..\source\Lib\TLibEncoder\TEncBinCoderCABACCounter.cpp ..\..\source\Lib\TLibEncoder\TEncCavlc.cpp ..\..\source\Lib\TLibEncoder\TEncCu.cpp ..\..\source\Lib\TLibEncoder\TEncEntropy.cpp ..\..\source\Lib\TLibEncoder\TEncGOP.cpp ..\..\source\Lib\TLibEncoder\TEncPic.cpp ..\..\source\Lib\TLibEncoder\TEncPreanalyzer.cpp ..\..\source\Lib\TLibEncoder\TEncRateCtrl.cpp ..\..\source\Lib\TLibEncoder\TEncSampleAdaptiveOffset.cpp ..\..\source\Lib\TLibEncoder\TEncSbac.cpp ..\..\source\Lib\TLibEncoder\TEncSearch.cpp ..\..\source\Lib\TLibEncoder\TEncSlice.cpp ..\..\source\Lib\TLibEncoder\TEncTop.cpp ..\..\source\Lib\TLibEncoder\WeightPredAnalysis.cpp
+         WeightPredAnalysis.cpp
+         TEncTop.cpp
+         TEncSlice.cpp
+         TEncSearch.cpp
+         TEncSbac.cpp
+         TEncSampleAdaptiveOffset.cpp
+         TEncRateCtrl.cpp
+         TEncPreanalyzer.cpp
+         TEncPic.cpp
+         TEncGOP.cpp
+         TEncEntropy.cpp
+         TEncCu.cpp
+         TEncCavlc.cpp
+         TEncBinCoderCABACCounter.cpp
+         TEncBinCoderCABAC.cpp
+         TEncAnalyze.cpp
+         SyntaxElementWriter.cpp
+         SEIwrite.cpp
+         NALwrite.cpp
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibEncoder\TLibEncoder.lib" /NOLOGO D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibEncoder\NALwrite.obj
+         D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibEncoder\SEIwrite.obj
+         D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibEncoder\SyntaxElementWriter.obj
+         D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibEncoder\TEncAnalyze.obj
+         D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibEncoder\TEncBinCoderCABAC.obj
+         D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibEncoder\TEncBinCoderCABACCounter.obj
+         D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibEncoder\TEncCavlc.obj
+         D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibEncoder\TEncCu.obj
+         D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibEncoder\TEncEntropy.obj
+         D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibEncoder\TEncGOP.obj
+         D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibEncoder\TEncPic.obj
+         D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibEncoder\TEncPreanalyzer.obj
+         D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibEncoder\TEncRateCtrl.obj
+         D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibEncoder\TEncSampleAdaptiveOffset.obj
+         D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibEncoder\TEncSbac.obj
+         D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibEncoder\TEncSearch.obj
+         D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibEncoder\TEncSlice.obj
+         D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibEncoder\TEncTop.obj
+         D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibEncoder\WeightPredAnalysis.obj
+         TLibEncoder_vc10.vcxproj -> D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibEncoder\TLibEncoder.lib
+       FinalizeBuildStatus:
+         正在删除文件“D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibEncoder\TLibEncoder.unsuccessfulbuild”。
+         正在对“D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibEncoder\TLibEncoder.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\compressdomain\release\HM16.0_fixqp\build\vc10\TLibEncoder_vc10.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:12.45

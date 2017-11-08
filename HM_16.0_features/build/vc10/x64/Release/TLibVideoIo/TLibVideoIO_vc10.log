@@ -1,0 +1,17 @@
+﻿生成启动时间为 2017/11/9 1:34:07。
+     1>项目“D:\compressdomain\Compressd_Domain_SaliencyPrediction-master(1)\Compressd_Domain_SaliencyPrediction-master\release_code\HM_16.0_features\build\vc10\TLibVideoIO_vc10.vcxproj”在节点 4 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“D:\compressdomain\Compressd_Domain_SaliencyPrediction-master(1)\Compressd_Domain_SaliencyPrediction-master\release_code\HM_16.0_features\build\\vc10\x64\Release\TLibVideoIo\TLibVideoIO.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+       Lib:
+         所有输出均为最新。
+         TLibVideoIO_vc10.vcxproj -> D:\compressdomain\Compressd_Domain_SaliencyPrediction-master(1)\Compressd_Domain_SaliencyPrediction-master\release_code\HM_16.0_features\build\\vc10\x64\Release\TLibVideoIo\TLibVideoIO.lib
+       FinalizeBuildStatus:
+         正在删除文件“D:\compressdomain\Compressd_Domain_SaliencyPrediction-master(1)\Compressd_Domain_SaliencyPrediction-master\release_code\HM_16.0_features\build\\vc10\x64\Release\TLibVideoIo\TLibVideoIO.unsuccessfulbuild”。
+         正在对“D:\compressdomain\Compressd_Domain_SaliencyPrediction-master(1)\Compressd_Domain_SaliencyPrediction-master\release_code\HM_16.0_features\build\\vc10\x64\Release\TLibVideoIo\TLibVideoIO.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\compressdomain\Compressd_Domain_SaliencyPrediction-master(1)\Compressd_Domain_SaliencyPrediction-master\release_code\HM_16.0_features\build\vc10\TLibVideoIO_vc10.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.09

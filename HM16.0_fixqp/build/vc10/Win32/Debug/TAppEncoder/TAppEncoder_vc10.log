@@ -1,0 +1,31 @@
+﻿生成启动时间为 2016/12/21 12:35:57。
+     1>项目“D:\compressdomain\release\HM16.0_fixqp\build\vc10\TAppEncoder_vc10.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TAppEncoder\TAppEncoder.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\compressdomain\release\HM16.0_fixqp\build\\..\bin\vc10\Win32\Debug\TAppEncoder.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TAppEncoder\TAppEncoder.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\compressdomain\release\HM16.0_fixqp\bin\vc10\Win32\Debug\TAppEncoder.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\compressdomain\release\HM16.0_fixqp\build\\..\bin\vc10\Win32\Debug\TAppEncoder.lib" /MACHINE:X86 D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TAppEncoder\TAppEncoder.exe.embed.manifest.res
+         D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TAppEncoder\encmain.obj
+         D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TAppEncoder\TAppEncCfg.obj
+         D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TAppEncoder\TAppEncTop.obj
+         D:\compressdomain\release\HM16.0_fixqp\build\vc10\Win32\Debug\TAppCommon\TAppCommon.lib
+         D:\compressdomain\release\HM16.0_fixqp\build\vc10\Win32\Debug\TLibCommon\TLibCommon.lib
+         D:\compressdomain\release\HM16.0_fixqp\build\vc10\Win32\Debug\TLibEncoder\TLibEncoder.lib
+         D:\compressdomain\release\HM16.0_fixqp\build\vc10\Win32\Debug\TLibVideoIo\TLibVideoIO.lib
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TAppEncoder\TAppEncoder.exe.embed.manifest" /manifest D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TAppEncoder\TAppEncoder.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         TAppEncoder_vc10.vcxproj -> D:\compressdomain\release\HM16.0_fixqp\build\\..\bin\vc10\Win32\Debug\TAppEncoder.exe
+       FinalizeBuildStatus:
+         正在删除文件“D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TAppEncoder\TAppEncoder.unsuccessfulbuild”。
+         正在对“D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TAppEncoder\TAppEncoder.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\compressdomain\release\HM16.0_fixqp\build\vc10\TAppEncoder_vc10.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.11

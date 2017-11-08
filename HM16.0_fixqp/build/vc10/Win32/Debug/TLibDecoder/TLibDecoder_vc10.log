@@ -1,0 +1,41 @@
+﻿生成启动时间为 2016/12/21 12:33:16。
+     1>项目“D:\compressdomain\release\HM16.0_fixqp\build\vc10\TLibDecoder_vc10.vcxproj”在节点 6 上(rebuild 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibDecoder\TLibDecoder.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\compressdomain\release\HM16.0_fixqp\build\\..\source\Lib\ /ID:\compressdomain\release\HM16.0_fixqp\build\\..\compat\msvc /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibDecoder\\" /Fd"D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibDecoder\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\source\Lib\TLibDecoder\AnnexBread.cpp ..\..\source\Lib\TLibDecoder\NALread.cpp ..\..\source\Lib\TLibDecoder\SEIread.cpp ..\..\source\Lib\TLibDecoder\SyntaxElementParser.cpp ..\..\source\Lib\TLibDecoder\TDecBinCoderCABAC.cpp ..\..\source\Lib\TLibDecoder\TDecCAVLC.cpp ..\..\source\Lib\TLibDecoder\TDecCu.cpp ..\..\source\Lib\TLibDecoder\TDecEntropy.cpp ..\..\source\Lib\TLibDecoder\TDecGop.cpp ..\..\source\Lib\TLibDecoder\TDecSbac.cpp ..\..\source\Lib\TLibDecoder\TDecSlice.cpp ..\..\source\Lib\TLibDecoder\TDecTop.cpp
+         TDecTop.cpp
+         TDecSlice.cpp
+         TDecSbac.cpp
+         TDecGop.cpp
+         TDecEntropy.cpp
+         TDecCu.cpp
+         TDecCAVLC.cpp
+         TDecBinCoderCABAC.cpp
+         SyntaxElementParser.cpp
+         SEIread.cpp
+         NALread.cpp
+         AnnexBread.cpp
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibDecoder\TLibDecoder.lib" /NOLOGO D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibDecoder\AnnexBread.obj
+         D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibDecoder\NALread.obj
+         D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibDecoder\SEIread.obj
+         D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibDecoder\SyntaxElementParser.obj
+         D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibDecoder\TDecBinCoderCABAC.obj
+         D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibDecoder\TDecCAVLC.obj
+         D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibDecoder\TDecCu.obj
+         D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibDecoder\TDecEntropy.obj
+         D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibDecoder\TDecGop.obj
+         D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibDecoder\TDecSbac.obj
+         D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibDecoder\TDecSlice.obj
+         D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibDecoder\TDecTop.obj
+         TLibDecoder_vc10.vcxproj -> D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibDecoder\TLibDecoder.lib
+       FinalizeBuildStatus:
+         正在删除文件“D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibDecoder\TLibDecoder.unsuccessfulbuild”。
+         正在对“D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TLibDecoder\TLibDecoder.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\compressdomain\release\HM16.0_fixqp\build\vc10\TLibDecoder_vc10.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.10

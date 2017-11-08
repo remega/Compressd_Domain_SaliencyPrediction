@@ -1,0 +1,56 @@
+﻿生成启动时间为 2016/12/25 23:40:53。
+     1>项目“D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\vc10\TLibEncoder_vc10.vcxproj”在节点 5 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\vc10\x64\Release\TLibEncoder\TLibEncoder.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\vc10\x64\Release\TLibEncoder\TLibEncoder.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /ID:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\..\source\Lib\ /ID:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\..\compat\msvc /Zi /nologo /W3 /WX- /O2 /Ob2 /Ot /GL /D WIN32 /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\vc10\x64\Release\TLibEncoder\\" /Fd"D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\vc10\x64\Release\TLibEncoder\vc100.pdb" /Gd /TP /errorReport:prompt ..\..\source\Lib\TLibEncoder\NALwrite.cpp ..\..\source\Lib\TLibEncoder\SEIwrite.cpp ..\..\source\Lib\TLibEncoder\SyntaxElementWriter.cpp ..\..\source\Lib\TLibEncoder\TEncAnalyze.cpp ..\..\source\Lib\TLibEncoder\TEncBinCoderCABAC.cpp ..\..\source\Lib\TLibEncoder\TEncBinCoderCABACCounter.cpp ..\..\source\Lib\TLibEncoder\TEncCavlc.cpp ..\..\source\Lib\TLibEncoder\TEncCu.cpp ..\..\source\Lib\TLibEncoder\TEncEntropy.cpp ..\..\source\Lib\TLibEncoder\TEncGOP.cpp ..\..\source\Lib\TLibEncoder\TEncPic.cpp ..\..\source\Lib\TLibEncoder\TEncPreanalyzer.cpp ..\..\source\Lib\TLibEncoder\TEncRateCtrl.cpp ..\..\source\Lib\TLibEncoder\TEncSampleAdaptiveOffset.cpp ..\..\source\Lib\TLibEncoder\TEncSbac.cpp ..\..\source\Lib\TLibEncoder\TEncSearch.cpp ..\..\source\Lib\TLibEncoder\TEncSlice.cpp ..\..\source\Lib\TLibEncoder\TEncTop.cpp ..\..\source\Lib\TLibEncoder\WeightPredAnalysis.cpp
+         NALwrite.cpp
+         SEIwrite.cpp
+         SyntaxElementWriter.cpp
+         TEncAnalyze.cpp
+         TEncBinCoderCABAC.cpp
+         TEncBinCoderCABACCounter.cpp
+         TEncCavlc.cpp
+         TEncCu.cpp
+         TEncEntropy.cpp
+         TEncGOP.cpp
+         TEncPic.cpp
+         TEncPreanalyzer.cpp
+         TEncRateCtrl.cpp
+         TEncSampleAdaptiveOffset.cpp
+         TEncSbac.cpp
+         TEncSearch.cpp
+         TEncSlice.cpp
+         TEncTop.cpp
+         WeightPredAnalysis.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\vc10\x64\Release\TLibEncoder\TLibEncoder.lib" /NOLOGO /LTCG D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\vc10\x64\Release\TLibEncoder\NALwrite.obj
+         D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\vc10\x64\Release\TLibEncoder\SEIwrite.obj
+         D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\vc10\x64\Release\TLibEncoder\SyntaxElementWriter.obj
+         D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\vc10\x64\Release\TLibEncoder\TEncAnalyze.obj
+         D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\vc10\x64\Release\TLibEncoder\TEncBinCoderCABAC.obj
+         D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\vc10\x64\Release\TLibEncoder\TEncBinCoderCABACCounter.obj
+         D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\vc10\x64\Release\TLibEncoder\TEncCavlc.obj
+         D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\vc10\x64\Release\TLibEncoder\TEncCu.obj
+         D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\vc10\x64\Release\TLibEncoder\TEncEntropy.obj
+         D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\vc10\x64\Release\TLibEncoder\TEncGOP.obj
+         D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\vc10\x64\Release\TLibEncoder\TEncPic.obj
+         D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\vc10\x64\Release\TLibEncoder\TEncPreanalyzer.obj
+         D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\vc10\x64\Release\TLibEncoder\TEncRateCtrl.obj
+         D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\vc10\x64\Release\TLibEncoder\TEncSampleAdaptiveOffset.obj
+         D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\vc10\x64\Release\TLibEncoder\TEncSbac.obj
+         D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\vc10\x64\Release\TLibEncoder\TEncSearch.obj
+         D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\vc10\x64\Release\TLibEncoder\TEncSlice.obj
+         D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\vc10\x64\Release\TLibEncoder\TEncTop.obj
+         D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\vc10\x64\Release\TLibEncoder\WeightPredAnalysis.obj
+         TLibEncoder_vc10.vcxproj -> D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\vc10\x64\Release\TLibEncoder\TLibEncoder.lib
+       FinalizeBuildStatus:
+         正在删除文件“D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\vc10\x64\Release\TLibEncoder\TLibEncoder.unsuccessfulbuild”。
+         正在对“D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\vc10\x64\Release\TLibEncoder\TLibEncoder.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\vc10\TLibEncoder_vc10.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:11.86

@@ -1,0 +1,20 @@
+﻿生成启动时间为 2016/12/21 12:33:16。
+     1>项目“D:\compressdomain\release\HM16.0_fixqp\build\vc10\TAppCommon_vc10.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TAppCommon\TAppCommon.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TAppCommon\TAppCommon.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\compressdomain\release\HM16.0_fixqp\build\\..\source\Lib\ /ID:\compressdomain\release\HM16.0_fixqp\build\\..\compat\msvc /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TAppCommon\\" /Fd"D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TAppCommon\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\source\Lib\TAppCommon\program_options_lite.cpp
+         program_options_lite.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TAppCommon\TAppCommon.lib" /NOLOGO D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TAppCommon\program_options_lite.obj
+         TAppCommon_vc10.vcxproj -> D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TAppCommon\TAppCommon.lib
+       FinalizeBuildStatus:
+         正在删除文件“D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TAppCommon\TAppCommon.unsuccessfulbuild”。
+         正在对“D:\compressdomain\release\HM16.0_fixqp\build\\vc10\Win32\Debug\TAppCommon\TAppCommon.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\compressdomain\release\HM16.0_fixqp\build\vc10\TAppCommon_vc10.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.43

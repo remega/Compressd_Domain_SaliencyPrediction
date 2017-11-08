@@ -1,0 +1,32 @@
+﻿生成启动时间为 2016/12/25 23:41:07。
+     1>项目“D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\vc10\TAppEncoder_vc10.vcxproj”在节点 6 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\vc10\x64\Release\TAppEncoder\TAppEncoder.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\vc10\x64\Release\TAppEncoder\TAppEncoder.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /ID:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\..\source\Lib\ /ID:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\..\compat\msvc /Zi /nologo /W3 /WX- /O2 /Ob2 /Ot /GL /D WIN32 /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\vc10\x64\Release\TAppEncoder\\" /Fd"D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\vc10\x64\Release\TAppEncoder\vc100.pdb" /Gd /TP /errorReport:prompt ..\..\source\App\TAppEncoder\encmain.cpp ..\..\source\App\TAppEncoder\TAppEncCfg.cpp ..\..\source\App\TAppEncoder\TAppEncTop.cpp
+         encmain.cpp
+         TAppEncCfg.cpp
+         TAppEncTop.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\..\bin\vc10\x64\Release\TAppEncoder.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\vc10\x64\Release\TAppEncoder\TAppEncoder.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\compressdomain\HMC++\Kimono\HM_16.0_features\bin\vc10\x64\Release\TAppEncoder.pdb" /SUBSYSTEM:CONSOLE /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\..\bin\vc10\x64\Release\TAppEncoder.lib" /MACHINE:X64 D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\vc10\x64\Release\TAppEncoder\encmain.obj
+         D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\vc10\x64\Release\TAppEncoder\TAppEncCfg.obj
+         D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\vc10\x64\Release\TAppEncoder\TAppEncTop.obj
+         D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\vc10\x64\Release\TAppCommon\TAppCommon.lib
+         D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\vc10\x64\Release\TLibCommon\TLibCommon.lib
+         D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\vc10\x64\Release\TLibEncoder\TLibEncoder.lib
+         D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\vc10\x64\Release\TLibVideoIo\TLibVideoIO.lib
+         正在生成代码
+         已完成代码的生成
+         TAppEncoder_vc10.vcxproj -> D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\..\bin\vc10\x64\Release\TAppEncoder.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\..\bin\vc10\x64\Release\TAppEncoder.exe;#1" /manifest D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\vc10\x64\Release\TAppEncoder\TAppEncoder.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\vc10\x64\Release\TAppEncoder\TAppEncoder.unsuccessfulbuild”。
+         正在对“D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\\vc10\x64\Release\TAppEncoder\TAppEncoder.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\compressdomain\HMC++\Kimono\HM_16.0_features\build\vc10\TAppEncoder_vc10.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:20.68
