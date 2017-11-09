@@ -31,20 +31,23 @@ Nine designed compressed domain features followed a learned SVM.
 ![SVM](/figs/svm.png "SVM")
 
 ## Usage
-To  apply our method, we first encode the target video, and then extract compressed domain features. At last, generate the saliency maps.
+To  apply our method, we first encode the target video, and then extract compressed domain features. At last, generate saliency maps.
 
-### Software
-1.	Matlab 2012 (or later)
+### Preparation  
+1.  Matlab 2012 (or later)
 
 2.	Visual studio 2010 (or later)
+
+3.  Put the target videos in **'./videos/'**, and create the corresponding subfolds in **'./HEVCfiles/'** with the name of video.
 
 ### Encode the video
 In paper, video is encoded by **HM16.0 (HEVC)** in rate control mode, with the bit-rates of the same as those at fixed QP=37. However, any public encoder with different settings can be applied to extract the compressed domain features, such as **X265 in ffmpeg**. Here, we give two examples.
 
-#### HM16.0 (HEVC)
+* **HM16.0 (HEVC)**
+
 Videos can be encoded in the HECV format by HM16.0, which can be downloaded in this  [link](https://hevc.hhi.fraunhofer.de/svn/svn_HEVCSoftware/tags/). The video is first encoded in fixed QP mode to obtain the corresponding bit-rates. Then, video is encoded in rate control mode to generate the final bit stream file (.bin).	
 
-    1)	Transform the video to YUV format (if not). Run trans2yuv.bat.
+    1)	Transform the video to YUV format (if not). Run **trans2yuv.bat**.
 
     2)	Move the yuv file to .\HM16.0_fixqp\bin\vc10\Win32\Debug\. 
 
@@ -58,20 +61,21 @@ Videos can be encoded in the HECV format by HM16.0, which can be downloaded in t
 
     7)	Run the project in .\HM16.0_fixqp\build\HM_vc10.sln again. The bit stream file str.bin is in .\HM16.0_fixqp\bin\vc10\Win32\Debug\. 
 
-#### ffmpeg (X265)
+* **ffmpeg (X265)**
 
 Transcode the video to bit stream file (.hevc) by the x265 encoder in ffmpeg3.2.2, with QP set to 37.
-Run x265encode.bat
 
-2.Feature extraction&Generate the saliency map
+       Run x265encode.bat
 
-Normal version (in paper)
+### Extract compressed domain features & Generate saliency maps
+
+* **Normal version (in paper)**
  
 1)	Mex the cpp file in matlab: Mex computecontrast5.cpp
 
 2)	Run Main.m (modify the input/output on your own)
 
-Fast version
+* **Fast version**
 
 1)	Move the bit stream file (str.bin) to .\HM_16.0_features\bin\vc10.
 
