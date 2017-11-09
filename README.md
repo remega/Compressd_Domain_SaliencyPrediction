@@ -27,40 +27,38 @@ Our work is published in [TIP2017](http://ieeexplore.ieee.org/abstract/document/
 ## Models
 Nine designed compressed domain features followed a learned SVM.
 
-![Features](/fig1/compresseddomain.png "Features")
-![SVM](/fig1/svm.png "SVM")
+![Features](/figs/compresseddomain.png "Features")
+![SVM](/figs/svm.png "SVM")
 
-Software
+## Usage
+To  apply our method, we first encode the target video, and then extract compressed domain features. At last, generate the saliency maps.
 
+### Software
 1.	Matlab 2012 (or later)
 
 2.	Visual studio 2010 (or later)
 
-Usage
+### Encode the video
+In paper, video is encoded by **HM16.0 (HEVC)** in rate control mode, with the bit-rates of the same as those at fixed QP=37. However, any public encoder with different settings can be applied to extract the compressed domain features, such as **X265 in ffmpeg**. Here, we give two examples.
 
-1. Encode the video.
+#### HM16.0 (HEVC)
+Videos can be encoded in the HECV format by HM16.0, which can be downloaded in this  [link](https://hevc.hhi.fraunhofer.de/svn/svn_HEVCSoftware/tags/). The video is first encoded in fixed QP mode to obtain the corresponding bit-rates. Then, video is encoded in rate control mode to generate the final bit stream file (.bin).	
 
-In paper, video is encoded by HM16.0 (HEVC) in rate control mode, with the bit-rates of the same as those at fixed QP=37. However, any public encoder with different settings can be applied to extract the compressed domain features. Here, we give two examples.
+    1)	Transform the video to YUV format (if not). Run trans2yuv.bat.
 
-HM16.0 (HEVC)
+    2)	Move the yuv file to .\HM16.0_fixqp\bin\vc10\Win32\Debug\. 
 
-Videos can be encoded in the HECV format by HM16.0, which can be downloaded in https://hevc.hhi.fraunhofer.de/svn/svn_HEVCSoftware/tags/. The video is first encoded in fixed QP mode to obtain the corresponding bit-rates. Then, video is encoded in rate control mode to generate the final bit stream file (.bin).	
+    3)	Modify .\HM16.0_fixqp\bin\vc10\Win32\Debug\VideoInfo.cfg according to your video information.
 
-1)	Transform the video to YUV format (if not). Run trans2yuv.bat.
+    4)	Modify .\HM16.0_fixqp\bin\vc10\Win32\Debug\encoder_lowdelay_P_main.cfg, mainly in Quantization_QP=X (37 is recommended), Rate Control_RateControl=0.
 
-2)	Move the yuv file to .\HM16.0_fixqp\bin\vc10\Win32\Debug\. 
+    5)	Run the project in .\HM16.0_fixqp\build\HM_vc10.sln. Record the bit-rates in the screen when the project is finished. 
 
-3)	Modify .\HM16.0_fixqp\bin\vc10\Win32\Debug\VideoInfo.cfg according to your video information.
+    6)	Modify .\HM16.0_fixqp\bin\vc10\Win32\Debug\encoder_lowdelay_P_main.cfg, mainly in, Rate Control_RateControl=1, Rate Control_RateControl= TargetBitrate=X (the recorded bit-rates).
 
-4)	Modify .\HM16.0_fixqp\bin\vc10\Win32\Debug\encoder_lowdelay_P_main.cfg, mainly in Quantization_QP=X (37 is recommended), Rate Control_RateControl=0.
+    7)	Run the project in .\HM16.0_fixqp\build\HM_vc10.sln again. The bit stream file str.bin is in .\HM16.0_fixqp\bin\vc10\Win32\Debug\. 
 
-5)	Run the project in .\HM16.0_fixqp\build\HM_vc10.sln. Record the bit-rates in the screen when the project is finished. 
-
-6)	Modify .\HM16.0_fixqp\bin\vc10\Win32\Debug\encoder_lowdelay_P_main.cfg, mainly in, Rate Control_RateControl=1, Rate Control_RateControl= TargetBitrate=X (the recorded bit-rates).
-
-7)	Run the project in .\HM16.0_fixqp\build\HM_vc10.sln again. The bit stream file str.bin is in .\HM16.0_fixqp\bin\vc10\Win32\Debug\. 
-
-ffmpeg (X265)
+#### ffmpeg (X265)
 
 Transcode the video to bit stream file (.hevc) by the x265 encoder in ffmpeg3.2.2, with QP set to 37.
 Run x265encode.bat
