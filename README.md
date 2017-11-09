@@ -1,5 +1,34 @@
+Compressd_Domain_SaliencyPrediction
+==========
+The released code for paper "Learning to Detect Video Saliency with HEVC Features" in TIP2017 ([link](http://ieeexplore.ieee.org/abstract/document/7742914/)), from Lai Jiang, Mai Xu in Beihang University(2016). 
 
-The released code for paper "Learning to Detect Video Saliency with HEVC Features" in TIP2016, from Lai Jiang, Mai Xu in Beihang University(2016). 
+## Abstract
+Saliency detection has been widely studied to predict human fixations, with various applications in computer vision and image processing.  For saliency detection, we argue in this paper that the state-of-the-art high efficiency video coding (HEVC) standard can be used to generate the useful features in compressed domain. Therefore, this paper proposes to learn the video saliency model, with regard to HEVC features. First, we establish an eye tracking database for video saliency detectio. Through the statistical analysis on our eye tracking database, we find out that human fixations tend to fall into the regions with large-valued HEVC features on splitting depth, bit allocation, and motion vector (MV). In addition, three observations are obtained with the further analysis on our eye tracking database. Accordingly, several features in HEVC domain are proposed on the basis of splitting depth, bit allocation, and MV. Next, a kind of support vector machine (SVM) is learned to integrate those HEVC features together, for video saliency detection.
+Since almost all video data are stored in the compressed form, our method is able to avoid both the computational cost on decoding and the storage cost on raw data. More importantly, experimental results show that the proposed method is superior to other state-of-the-art saliency detection methods, either in compressed or uncompressed domain.
+
+![](/figs/fig1.png)
+
+## Publication
+Our work is published in [TIP2017](http://ieeexplore.ieee.org/abstract/document/7742914/), one can cite with the Bibtex code:  
+
+```
+@article{xu2017learning,
+  title={Learning to detect video saliency with HEVC features},
+  author={Xu, Mai and Jiang, Lai and Sun, Xiaoyan and Ye, Zhaoting and Wang, Zulin},
+  journal={IEEE Transactions on Image Processing},
+  volume={26},
+  number={1},
+  pages={369--385},
+  year={2017},
+  publisher={IEEE}
+}
+```
+
+## Models
+Nine designed compressed domain features followed a learned SVM.
+
+![Features](/fig1/compresseddomain.png "Features")
+![SVM](/fig1/svm.png "SVM")
 
 Software
 
