@@ -47,7 +47,7 @@ In paper, video is encoded by **HM16.0 (HEVC)** in rate control mode, with the b
 
 Videos can be encoded in the HECV format by HM16.0, which can be downloaded in this  [link](https://hevc.hhi.fraunhofer.de/svn/svn_HEVCSoftware/tags/). The video is first encoded in fixed QP mode to obtain the corresponding bit-rates. Then, video is encoded in rate control mode to generate the final bit stream file (.bin).	
 
-    1)	Transform the video to YUV format (if not). Run **trans2yuv.bat**.
+    1)	Transform the video to YUV format (if not). Run trans2yuv.bat.
 
     2)	Move the yuv file to .\HM16.0_fixqp\bin\vc10\Win32\Debug\. 
 
@@ -71,18 +71,23 @@ Transcode the video to bit stream file (.hevc) by the x265 encoder in ffmpeg3.2.
 
 * **Normal version (in paper)**
  
-1)	Mex the cpp file in matlab: Mex computecontrast5.cpp
+      1)	Mex the cpp file in matlab: Mex computecontrast5.cpp
 
-2)	Run Main.m (modify the input/output on your own)
+      2)	Run Main.m (modify the input/output on your own)
 
 * **Fast version**
 
-1)	Move the bit stream file (str.bin) to .\HM_16.0_features\bin\vc10.
+      1)	Move the bit stream file (str.bin) to .\HM_16.0_features\bin\vc10.
 
-2)	Modify the video information in TLibDecoder_ TDecCu.h and TLibDecoder_TDecGop.cpp
+      2)	Modify the video information in TLibDecoder_ TDecCu.h and TLibDecoder_TDecGop.cpp
 
-3)	Link your OpenCV 
+      3)	Link your OpenCV 
 
-4)	Run the project in .\HM_16.0_features\build\HM_vc10.sln (Release X64 default)
+      4)	Run the project in .\HM_16.0_features\build\HM_vc10.sln (Release X64 default)
+      
+## Visual Results
+Some visual results of our and other video saliency prediction models.
+![visualresult](/figs/vsresult.png "visualresult")
 
-IF any question, please contact jianglai.china@aliyun.com.
+## Contact
+IF any question, please contact jianglai.china@aliyun.com / jianglai.china@buaa.edu.cn.
