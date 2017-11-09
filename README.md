@@ -1,6 +1,6 @@
 Compressd_Domain_SaliencyPrediction
 ==========
-The released code for paper "Learning to Detect Video Saliency with HEVC Features" in TIP2017 ([link](http://ieeexplore.ieee.org/abstract/document/7742914/)), from Lai Jiang, Mai Xu in Beihang University(2016). 
+The released code for paper "Learning to Detect Video Saliency with HEVC Features" in TIP2017 ([link](http://ieeexplore.ieee.org/abstract/document/7742914/)), from Lai Jiang, Mai Xu in Beihang University(2017). 
 
 ## Abstract
 Saliency detection has been widely studied to predict human fixations, with various applications in computer vision and image processing.  For saliency detection, we argue in this paper that the state-of-the-art high efficiency video coding (HEVC) standard can be used to generate the useful features in compressed domain. Therefore, this paper proposes to learn the video saliency model, with regard to HEVC features. First, we establish an eye tracking database for video saliency detectio. Through the statistical analysis on our eye tracking database, we find out that human fixations tend to fall into the regions with large-valued HEVC features on splitting depth, bit allocation, and motion vector (MV). In addition, three observations are obtained with the further analysis on our eye tracking database. Accordingly, several features in HEVC domain are proposed on the basis of splitting depth, bit allocation, and MV. Next, a kind of support vector machine (SVM) is learned to integrate those HEVC features together, for video saliency detection.
